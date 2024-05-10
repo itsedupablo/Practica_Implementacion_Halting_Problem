@@ -1,0 +1,20 @@
+package haltingProblem.model;
+
+import java.util.*;
+public class Finito extends Programa {
+    private int inicio;
+
+    public Finito() {
+        super();
+        this.inicio = 1000;
+    }
+
+    @Override
+    public void ejecutar() {
+        int i = inicio;
+        while (i >= 0) {
+            i--;
+        }
+    }
+    
+}
