@@ -30,7 +30,6 @@ donde también se encuentran:
 #### Paquete *haltingProblem.controller*:
 Este paquete cuenta con todas las clases involucradas en el funcionamiento interno del programa, que se basa en el patrón de diseño de comportamiento de Cadena de Responsabilidad.
 - **Handler**. Interfaz con las funciones básicas que deben implementar cada uno de los handlers y que además permite crear instancias de ella.
-**MANEJADOR SINTAXIS**
 - **SyntaxAnalysisHandler.** Primer handler de la cadena de responsabilidad, y es un poco diferente porque además de las funciones básicas de cada handler cuenta con un método donde se analiza el código y se convierte a cadena de texto (String).
 - **WhileLoopHandler.** Analiza si la palabra reservada *while* se encuentra en el código. Cuenta con un flag booleano que tendrá el valor de true si se ha encontrado la palabra.
 - **DefinicionBooleanosHandler.** Analiza si se han definido variables booleanas.
