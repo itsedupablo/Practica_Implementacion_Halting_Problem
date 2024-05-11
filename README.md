@@ -47,3 +47,6 @@ Este paquete cuenta con todas las clases involucradas en el funcionamiento inter
 - **ComparadorMenorHandler.** Analiza si se ha encontrado un comparador menor que.
 - **ComparadorMenorIgualHandler.** Analiza si se ha encontrado un comparador menor o igual que.
 
+#### Paquete *haltingProblem.view*:
+- **App.** Contiene toda la lógica de la cadena de responsabilidad (inicialización de los handlers, orden que han de seguir, etc.) y de la interfaz de usuario (GUI).
+  
